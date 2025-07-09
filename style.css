@@ -1,4 +1,4 @@
-bofy {
+body {
     height: 100%;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -21,6 +21,7 @@ bofy {
     background-image: url("image.png");
     opacity: 0.4;
     animation: move 5s linear infinite;
+
 }
 
 @keyframes move {
@@ -31,4 +32,34 @@ bofy {
     100% {
         top: 0%;
     }
+}
+
+.center-content {
+    z-index: 1;
+    top: 30%;
+    text-align: center;
+    padding: 20px;
+}
+
+.cloud-icon {
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+    text-decoration: underline overline;
+}
+
+p {
+    font: size 14px;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+button {
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
 }
